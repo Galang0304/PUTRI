@@ -1,0 +1,164 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    background: #030F0F;
+}
+
+.sidebar{
+    background-color: #021A1A;
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+}
+
+.menu{
+    margin-top: 24px;
+}
+
+
+li{
+    width: 100%;
+    list-style: none;
+    padding: 12px 32px;
+}
+
+li a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #F1F7F7;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.active{
+    background: #2CC295;
+    border-radius: 8px;
+    color: #042222;
+}
+
+.active a{
+    color: #042222;
+    font-weight: 600;
+}
+
+li:hover{
+    background: #06302C;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: #F1F7F7;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+li:hover a{
+    color: #F1F7F7
+}
+
+.keluar-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keluar-content i{
+    font-size: 24px;
+}
+
+.keluar a{
+    margin-left: 8px;
+}
+
+h1{
+    margin: 32px 28px 6px;
+}
+
+a.email{
+    margin-left: 32px;
+    font-weight:300;
+}
+
+i{
+    color: #2CC295;
+    font-size: 28px;
+}
+
+span{
+    color: #2CC295;
+    font-size: 20px;
+    margin-left: 12px;
+    font-weight: 600;
+}
+
+hr{
+    width: 260px;
+    margin: 24px auto;
+    border: 1px solid #0B4539;
+}
+
+.container{
+    margin-left: 340px;
+    padding-top: 24px;
+}
+
+.container-content{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.box-content {
+    padding: 24px;
+    background: #042222;
+    display: inline-flex;
+    width: 280px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.container h2{
+    font-size: 28px;
+    background: linear-gradient(to right, #2CC295 25%, #cbedde);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    display: inline-block;
+}
+
+
+h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #F1F7F7;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #F1F7F7;
+    text-align: center;
+    margin-top: 8px;
+}
+
+
+.text{
+    margin-top: 12px;
+}
+
+
+
+
+ 

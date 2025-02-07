@@ -1,0 +1,84 @@
+*, *::before, *::after {
+    box-sizing: border-box; /* Mengatur box-sizing untuk semua elemen */
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #030F0F 35%, #042222 100%);
+    min-height: 100vh;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.container{
+    padding: 36px;
+    background-color: #042222;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 600px;
+}
+
+h1{
+    background: linear-gradient(to right, #00DF82 20%, #f1f9f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.container{
+    margin-top: 24px;
+}
+
+label{
+    color: #2CC295;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+
+}
+
+input{
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background-color: #06302C;
+    border: none;
+    color: #F1F7F7;
+    font-size: 18px;
+}
+
+input::placeholder{
+    color: #03624C;
+    font-weight: 500;
+}
+
+input:focus{
+    border: 2px solid #03624C;
+    outline: none;
+}
+
+button.button-masuk{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    color: #021A1A;
+    background: linear-gradient(to right, #2CC295, #6bdfbc, #6bdfbc, #2CC295);
+    margin-top: 16px;
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 18px;
+    border: none;
+}
+
+button.button-masuk:hover{
+    background: #2CC295;
+}
